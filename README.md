@@ -30,6 +30,8 @@ npm run dev
 
 ```
 
+
+
  
 ## 🛒 E-commerce App Schema
 This project focuses on modeling a robust schema for a scalable eCommerce platform using MongoDB and Express.js, along with a basic API to retrieve products by vendor.
@@ -49,3 +51,38 @@ Bonus: Create an API to fetch all products of a specific vendor.
 
 #🧾 Description
 This backend-only project models core e-commerce functionality using Express and Mongoose. It supports basic CRUD and a bonus route to fetch vendor-specific products.
+
+
+
+
+
+# 📝 Notes API
+
+A secure REST API for managing user notes with **JWT authentication**. Users can register, log in, and perform **CRUD operations** on their personal notes.
+
+---
+
+## 🔗 Postman Collection
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://gahinathmadake-6297423.postman.co/workspace/Note-API~86362fec-9d64-4c0f-8970-93451ab3ca97/collection/44620367-f4da73bf-c71a-4147-9c73-66a3df0af7af?action=share&creator=44620367)
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB (local or cloud)
+- Postman (for testing APIs)
+
+### 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/notes-api.git
+cd notes-api
+
+# Install dependencies
+npm install
+```
