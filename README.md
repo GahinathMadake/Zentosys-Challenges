@@ -11,7 +11,8 @@ This repository contains all the challenges I have completed as part of the inte
 ---
 <br>
 <br>
-## To-Do App
+
+# To-Do App
 
 A modern and minimalistic To-Do list application built with React and TailwindCSS. Tasks are saved in the browser's localStorage to ensure persistence across sessions.
 
@@ -32,9 +33,9 @@ npm run dev
 ```
 
 
-
  <br>
  <br>
+ 
 ## 🛒 E-commerce App Schema
 This project focuses on modeling a robust schema for a scalable eCommerce platform using MongoDB and Express.js, along with a basic API to retrieve products by vendor.
 
