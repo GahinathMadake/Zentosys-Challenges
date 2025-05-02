@@ -31,7 +31,7 @@ npm run dev
 ```
 
  
-## E-commerce App Schema
+## 🛒 E-commerce App Schema
 This project focuses on modeling a robust schema for a scalable eCommerce platform using MongoDB and Express.js, along with a basic API to retrieve products by vendor.
 
 📌 Challenge Task
@@ -47,5 +47,5 @@ Cart (userId, products[] with quantity, total)
 
 Bonus: Create an API to fetch all products of a specific vendor.
 
-🧾 Description
+#🧾 Description
 This backend-only project models core e-commerce functionality using Express and Mongoose. It supports basic CRUD and a bonus route to fetch vendor-specific products.
