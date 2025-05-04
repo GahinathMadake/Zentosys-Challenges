@@ -1,0 +1,238 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --colorDark1:#112D4E;
+    --colorDark2:#3F72AF;
+    --colorLight1:#DBE2EF;
+    --colorLight2:#F9F7F7;
+    /*global variables in css--> allow to store the values that can be reused through out
+    a stylesheet ans use var function to use variable eg.color:var(--colorDark1)*/
+}
+
+.wrapper{
+    height:100vh;
+    width:100vw;
+    color:var(--colorLight2);  /*angry tool->linear gradient */
+    background-image:linear-gradient(160deg, #112d4e 0%,#3f72af 100%);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding:10px;
+}
+
+.weather-section{
+    
+    max-width: 550px;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    margin-top:1rem;
+}
+
+.tab{
+    cursor: pointer;
+    font-size: 0.87;
+    letter-spacing: 1.75px;
+    padding:5px 8px;
+}
+
+.tab.current-tab{
+    background-color:rgba(219,226,239,0.5);
+    border-radius: 4px;
+}
+
+.weather-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 3rem;/*set top and bottom margin*/
+}
+
+.btn{
+all:unset;/*all default values are unset */
+font-size:0.7rem;
+text-transform: uppercase;
+border-radius: 4px;
+background-color: var(--colorDark2);
+cursor:pointer;
+padding:8px 20px;
+}
+
+.subcontainer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grant-container-location{
+    display:none;
+}
+
+.grant-container-location.active{
+    display:flex;
+    
+}
+
+
+.grant-container-location img{
+    margin-bottom: 2rem;
+}
+
+.grant-container-location p:first-of-type{
+    font: size 1.75rem;
+    font-weight: 600;
+}
+
+.grant-container-location p:last-of-type{
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+    margin-bottom: 1.75rem;
+    letter-spacing: 0.75px;
+}
+
+.loading-container{
+    display: none;
+}
+
+.loading-container.active{
+    display:flex;
+}
+
+.loading-container p{
+    text-transform: uppercase;
+}
+
+.weather-info{
+    display: none;
+}
+
+.weather-info.active{
+    display: flex;
+}
+
+.weather-info p{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.weather-info img{
+    width:90px;
+    height:90px;
+}
+.city{
+    display:flex;
+    flex-direction: row;
+    /*vertically-centre*/
+    align-items: center;
+    gap:0 0.5rem; /*top-bottom left-right*/
+    margin-bottom: 1rem;
+}
+
+.city P{
+    font-size: 1.5rem;
+}
+
+.city img{
+    height:30px;
+    width:30px;
+}
+
+.weather-info p[temperature-output]{ /*css through custom attribute */
+
+    font-size: 2.0rem;
+    font-weight: 700;
+
+}
+
+
+.animated-box{
+    display: flex;
+    gap:10px 20px;
+}
+
+.seperate-box img{
+    height: 40px;
+    width: 40px;
+}
+.seperate-box{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    max-width: 200px;
+    background-color:rgba(219,226,239,0.5);
+    border-radius: 5px;
+    align-items: center;
+    padding:1rem;
+    gap:4px;
+}
+
+.seperate-box p{
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.seperate-box p:last-of-type{
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+
+.placeholder-section{
+    display:none;
+
+}
+
+.placeholder-section.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0 20px;
+    margin-bottom: 2rem;
+}
+
+.placeholder-section input{
+    all:unset;
+    margin: 0 auto;
+    width:90%;
+    height: 30px;
+    padding:0 20px;
+    background-color:rgba(219,226,239,0.5);
+    border-radius: 4px;
+   
+}
+
+.placeholder-section input::placeholder{
+    color: rgba(255,255,255,0.7);
+}
+
+.placeholder-section input:focus{
+    outline: 3px solid rgba(255,255,255,0.7);
+}
+
+.placeholder-section .btn{
+    border-radius: 100%;
+    padding: unset;
+    height: 40px;
+    width:40px;
+    display: flex;
+   align-items: center;
+ justify-content: center;
+ 
+}
+
+.placeholder-section img[searchimagebtn]{
+   border-radius: 50%;
+   height: 20px;
+   width: 20px;
+ 
+}
+

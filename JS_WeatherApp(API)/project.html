@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+
+        <h1>Weather APP</h1>
+
+        <div class="weather-section">
+ 
+           <p class="tab" data-user-weather>Your-Weather</p>
+           <p class="tab" data-search-weather>Search Weather</p>
+
+        </div>
+
+
+ 
+
+
+
+        <div class="weather-content">
+
+
+
+            <div class="subcontainer grant-container-location">
+
+                <img src="location.png" alt="" width="80" height="80" loading="lazy"> 
+                <p>grant location access</p>
+                <p>Allow Access to get Weather condition</p>
+                <button class="btn" data-grant-access>Grant Access</button>
+
+            </div>
+            <!--Search vala form-->
+        <form class="placeholder-section"  dataSearchForm>
+
+            <input placeholder="Search for city..."  data-search-input>
+
+            <button class="btn" type="submit"> 
+              <img src="download.png" alt="" width="20" height="20" searchimagebtn >    
+            </button>
+
+        </form>
+        <!--loading section-->
+
+        <div class="subcontainer loading-container">
+
+            <img src="giphy.webp" alt="" width="150" height="150">
+            <p>loading</p>
+        </div>
+
+        <div class="subcontainer weather-info">
+
+            <div class="city">
+                <p city-name></p>
+                <img data-country-icon>
+
+            </div>
+
+            <p weather-status></p>
+
+
+            <img weather-status-icon>
+
+           
+            <p temperature-output></p>
+
+     <!--three card parameter -->
+
+            <div class="animated-box">
+
+               <div class="seperate-box">
+ 
+                   <img src="wind.png" height="30"  width="30">
+                   <p>WINDSPEED</p>
+                   <p wind-speed-output></p>
+                     
+               </div>
+
+
+               <div class="seperate-box">
+ 
+                <img src="humidity.png" height="30"  width="30">
+                <p>HUMIDITY</p>
+                <p humidity-output></p>
+                  
+               </div>
+
+
+               <div class="seperate-box">
+ 
+                <img src="clouds.png" height="30"  width="30">
+                <p>CLOUDS</p>
+                <p cloud-output></p>
+                  
+               </div>
+
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+<script src="project.js"></script>
+</html>
