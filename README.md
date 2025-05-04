@@ -7,6 +7,7 @@ This repository contains all the challenges I have completed as part of the inte
 1. **To-Do App** – A simple task management application.  
 2. **E-commerce Schema** – Database schema design for an e-commerce application.  
 3. **Notes API (Express.js)** – RESTful API routes for a note-taking application using Express.
+4. **Weather App** - Display the weather Condition by taking input of City Name
 
 ---
 <br>
@@ -89,3 +90,31 @@ cd notes-api
 # Install dependencies
 npm install
 ```
+
+
+<br/>
+<br/>
+# 🌦️ Weather CLI Tool
+
+A simple and lightweight command-line tool to fetch and display the current weather of any city using the **OpenWeatherMap API**.
+
+---
+
+## 🚀 Features
+
+- 🌍 Accepts **city name** as a Input argument
+- ☁️ Fetches **live weather data** using OpenWeatherMap
+- 🌡️ Displays:
+  - Temperature
+  - Weather condition
+  - Wind speed
+- 🗂️ Bonus: **Caches results** locally using a JSON file to reduce API calls
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
+
+run the project.html file
+
